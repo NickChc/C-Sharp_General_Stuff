@@ -1,0 +1,12 @@
+EVENTS
+
+
+
+Events are declared and raised in a class and associated with the event handlers using delegates within the same class or some other class.
+
+
+Publisher -
+publisher is an object that containts the definition of the event and the delegate
+
+Subscriber -
+subscriber is an object that accepts the event and provides an event handler
