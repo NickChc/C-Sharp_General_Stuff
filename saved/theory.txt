@@ -1,0 +1,58 @@
+// TODO : watch from video - 165
+
+
+THE PILLARS OF --- OOP ---
+
+
+I - E - P - A
+
+I - Inheritance - classes can be inherited with their props and methods
+
+E - Encapsulation - OOP allows us to store all the related data in one place e.x class Person would store all the person related data such as : name, surname, SayHi etc.
+
+P - Polymorphism - it allows methods to have different definitions depending on arguments passed to it. It makes possible overriding existing methods.
+
+
+A - Abstraction - Abstraction means, in OOP, we can choose what data to display and what to hide, making it cleaner approach to write code.
+
+
+
+Association, Aggregation and Composition ---------------
+
+Association -
+    Is a relation between objects.
+    Usually described as "is-a" or "using" relationship.
+    Both objects have an independent life-cycle.
+    Each object owns their actions, and won't affect the other object.
+
+
+  Example:
+    A Teacher teaches a Student. Neither the teacher nor the student depends on the other to exist.
+
+
+Aggregation - 
+    Specialized form of "Association".
+    usually described as "has-a" relationship.
+    Each object has an independent life-cycle.
+    Ownership between objects (one owns another).
+
+  Example:
+    A Team has Players. If the team is disbanded, players still exist.
+
+
+Composition - 
+    Is a specialized form of "Aggregation".
+    Usually described as "part-of" relationship.
+    Child object has a dependent life-cycle.
+    Ownership between objects.
+
+  Example:
+    A House contains Rooms. If the house is destroyed, the rooms no longer exist.
+
+
+
+
+
+THE struct VS class ----------------
+
+while class is more general way od defining data, struct should be used to define a short lived, related data.
