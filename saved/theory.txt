@@ -1,5 +1,59 @@
+MULTITHREADING ====================================================
 
-THE PILLARS OF --- OOP ---
+
+SEQUENTIAL PROGRAMMING -
+Programs with: 
+Start -> Sequence -> End.
+are called sequential
+
+WHAT IS A THREAD -
+A single thread is a single sequentiao flow of controls within a program.
+
+MULTITHREADING -
+Is a type of execution model that allows multiple threads to exist within the process and they execute independently but share their process resources.
+
+ADVANTAGES OF MULTITHREADING - 
+
+Responsivness - Multithreading allows an application to remain responsive
+
+Faster execution - Multithreaded applications operate faster on devices that have multiple CPUs.
+
+Lower resource consumption - Multithreaded applications can handle multiple requests simultaneously using fewer resources.
+
+Better system utilization - multithreaded applications can be doing different tasks at the same time, not in a sequential order.
+
+DISADVANTAGES OF MULTITHREADING -
+
+Complexity - it increases the comlexity of the application.
+
+Difficulty to write code - because you're placing each task on a seperate independent thread.
+
+Difficulty to test code - for the reasons listed above, the code becomes harder to test.
+
+Potential deadlocks - when two or more threads are blocking each other.
+
+CRITICAL SECTION -
+of a code, is a section that needs to be executed without being interruppted (by other threads)
+
+RACE CONDITIONS - 
+occurs when two or more threads are trying to manipulate the same resource concurrently and the outcome of the execution depends on the particular order in which the access takes place. 
+To avoid RACE CONDITIONS, the execution of critical sections must be mutually exclusive.
+
+
+
+DEADLOCKS -
+occur when thread eneters a waiting state because a requested resource is held by another waiting thread, which in turn is waiting for another held resource from another thread.
+
+Lock keyword -
+will ensure that one thread is executing a peice of code at one time. Which means that one thread does not enter a CRITICAL SECTION of code while another thread is in that critical section.
+
+
+
+
+
+
+
+THE PILLARS OF --- OOP --- ====================================================
 
 
 I - E - P - A
