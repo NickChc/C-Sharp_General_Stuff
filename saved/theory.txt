@@ -49,6 +49,14 @@ will ensure that one thread is executing a peice of code at one time. Which mean
 
 
 
+MUTEX -
+stands for - mutual exclusion - is an object used to synchronize access to a protected resource.
+A mutex's scope is system-wide, while lock and Monitor's scopes are application-wide.
+
+
+SEMAPHORE - 
+acts similar to MUTEX, however it allows us to specify how many threads can be accessed at the same time.
+
 
 
 
