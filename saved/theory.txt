@@ -64,6 +64,11 @@ Multi Threaded - does the same as Single Threaded but in multiple threads.
 
 
 
+CONCURRENT COLLECTIONS -
+Provide several thread-safe collection classes that should be used in place of corresponding types in the System.Collection and System.Collection.Generic namespaces whenever multiple threads are accessing collection concurrently.
+
+
+
 
 
 THE PILLARS OF --- OOP --- ====================================================
