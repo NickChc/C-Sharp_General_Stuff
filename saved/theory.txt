@@ -57,6 +57,11 @@ A mutex's scope is system-wide, while lock and Monitor's scopes are application-
 SEMAPHORE - 
 acts similar to MUTEX, however it allows us to specify how many threads can be accessed at the same time.
 
+ASYNCHRONOUS PROGRAMMING -
+Single Threaded - Thread starts executing a task, it can pause it in the middle and start doing another task.
+
+Multi Threaded - does the same as Single Threaded but in multiple threads.
+
 
 
 
