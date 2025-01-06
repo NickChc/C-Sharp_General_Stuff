@@ -1,3 +1,8 @@
+WHAT IS .DLL
+
+// A dll (Dynamic Link Library) is a library that contains code and data that can be used by more than one program at the same time.
+
+
 MULTITHREADING ====================================================
 
 
