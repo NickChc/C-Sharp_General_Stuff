@@ -1,6 +1,12 @@
-WHAT IS .DLL
+WHAT IS *.DLL
 
-// A dll (Dynamic Link Library) is a library that contains code and data that can be used by more than one program at the same time.
+A dll (Dynamic Link Library) is a library that contains code and data that can be used by more than one program at the same time.
+
+We can include .dll file from one project in another, and execute the code from the dll in our app.
+
+We can also decompile .dll files using tools like 'Telerik'.
+
+Dll files can be protected by another external tool called - PreEmptive solutions, this one costs money but offers free trial.
 
 
 MULTITHREADING ====================================================
